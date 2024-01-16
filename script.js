@@ -4,7 +4,7 @@ function indexOfIgnoreCase(s1, s2) {
 		return -1;
 	}
 	 let lower = s1.toLowerCase()
-	 let upper = s2.toLowerCase();
+	 let lower1 = s2.toLowerCase();
 
 	return lower.indexOf(upper)
 }
