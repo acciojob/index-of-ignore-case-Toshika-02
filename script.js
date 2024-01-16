@@ -3,8 +3,8 @@ function indexOfIgnoreCase(s1, s2) {
 	if(s1=== '' || s2=== ''){
 		return -1;
 	}
-	 let lower = s1.lowerCase()
-	 let upper = s2.upperCase();
+	 let lower = s1.toLowerCase()
+	 let upper = s2.toLowerCase();
 
 	return lower.indexOf(upper)
 }
