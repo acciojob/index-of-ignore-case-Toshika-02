@@ -1,12 +1,15 @@
 function indexOfIgnoreCase(s1, s2) {
   // write your code here
-	if(s1=== '' || s2=== ''){
-		return -1;
-	}
-	 const lower = s1.toLowerCase()
-	 const lower1 = s2.toLowerCase();
+	if (s1 === '' || s2 === '') {
+    return -1;
+  }
+ 
+  const lowerS1 = s1.toLowerCase();
+  const lowerS2 = s2.toLowerCase();
 
-	return lower.indexOf(lower1)
+  const index = lowerS1.indexOf(lowerS2);
+
+  return index;
 }
 
 Please do not change the code below
