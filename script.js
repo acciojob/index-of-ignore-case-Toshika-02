@@ -3,10 +3,10 @@ function indexOfIgnoreCase(s1, s2) {
 	if(s1=== '' || s2=== ''){
 		return -1;
 	}
-	 let lower = s1.toLowerCase()
-	 let lower1 = s2.toLowerCase();
+	 const lower = s1.toLowerCase()
+	 const lower1 = s2.toLowerCase();
 
-	return lower.indexOf(upper)
+	return lower.indexOf(lower1)
 }
 
 Please do not change the code below
